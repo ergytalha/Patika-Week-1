@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Form Elemanları Kullanımı</h1>
+    <form action="" method="post">
+          <!-- Text Input -->
+        <label for="first-lastname">İsim Soyisim</label>
+        <input type="text" name="first-lastname" placeholder="İsim Soyisim"> <br>
+        <label for="email">E-Mail Adresiniz</label>
+        <input type="email" name="email" placeholder="E-mail"> <br>
+        <label for="password">Parolanız</label>
+        <input type="password" name="password" id="pw" minlength="8"> <br>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Erkek</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Kadın</label><br>
+        <label for="fruit">Meyve Seçiniz</label> <br>
+        <select name="fruit" id="fruit">
+            <option value="elma">Elma</option>
+            <option value="muz">Muz</option>
+            <option value="kivi">Kivi</option>
+            <option value="nar">Nar</option>
+        </select><br>
+        <input type="text" name="message" id="message" placeholder="Mesajınız"> <br>
+        <input type="submit" value="Gönder">
+    </form>
+</body>
+</html>
