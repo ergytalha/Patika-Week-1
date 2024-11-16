@@ -1,0 +1,31 @@
+.menu {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background: whitesmoke;
+    padding: 13px;
+    border-radius: 34px;
+}
+.menu ul {
+    display: flex;
+    gap: 47px;
+}
+.menu ul li {
+    list-style-type: none;
+}
+.menu ul li a {
+    color: black;
+}
+a {
+    text-decoration: none;
+}
+.about {
+    display: flex;
+    gap: 47px;
+    justify-content: center;
+    padding: 55px 0px;
+}
+
+.text {
+    max-width: 500px;
+}
